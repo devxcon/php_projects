@@ -1,0 +1,54 @@
+.accordainHeading{
+    padding: 10px 5px;
+    background: #1475A1;
+    margin-bottom: 5px;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+}
+
+.openClose{
+    color: #fff;
+    padding: 0px 4px;
+    float: left;
+}
+
+.accordainHeading:hover{
+    cursor: pointer;
+}
+
+.accordainBody{
+    padding: 5px;
+    background: #f8f8f8;
+    display: none;
+    margin-bottom: 5px;
+}
+
+.accordainIcon{
+    width: 150px;
+    float: left;
+    margin-right: 10px;
+}
+
+.expand-close{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/baseUI.png);
+    background-repeat: no-repeat;
+    background-position: -31px -126px;
+}
+
+.expand-open{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/baseUI.png);
+    background-repeat: no-repeat;
+    background-position: -62px -126px;
+}
+
